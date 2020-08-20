@@ -9,7 +9,6 @@ export default function changeLanguage() {
         header.innerText = 'OLÁ, ME CHAMO';
         subtitle.innerText = 'Desenvolvedor Front-end & PHP';
         subtitle.style.letterSpacing = '.075rem';
-        console.log(subtitle.style.letterSpacing);
         description.innerText = 'FALE COMIGO PELO';
         email.innerText = 'MEU EMAIL';
     }
