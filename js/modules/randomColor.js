@@ -7,5 +7,15 @@ export default function randomColor() {
         '#fd4084'
     ];
     const randomNumber = Math.floor((Math.random() * colors.length));
+    const head = document.querySelector('head');
+    const link = document.createElement('link');
+
+    // Setting the color primary
     document.documentElement.style.setProperty('--color-primary', colors[randomNumber]);
+
+    // Setting the favicon
+    link.type = 'image/x-icon';
+    link.rel = 'icon';
+    link.href = `img/${randomNumber}.png`;
+    head.appendChild(link);
 }
