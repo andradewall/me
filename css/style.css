@@ -44,7 +44,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    opacity: 0;
+    /* opacity: 0; */
 }
 
 .main-section {
@@ -56,6 +56,7 @@ body {
     font-weight: 800;
     font-size: 3rem;
     color: var(--color-primary);
+    opacity: 0;
 }
 
 .subtitle {
@@ -64,17 +65,20 @@ body {
     letter-spacing: .24rem;
     font-size: 1.5rem;
     margin-bottom: 3rem;
+    opacity: 0;
 }
 
 .main-section__description {
     color: var(--color-white-darker);
     font-size: 1rem;
+    opacity: 0;
 }
 
 .list {
     margin-top: 1rem;
     display: flex;
     list-style: none;
+    opacity: 0;
 }
 
 .list .list__item {
